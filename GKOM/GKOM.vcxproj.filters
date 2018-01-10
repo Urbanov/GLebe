@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\animation">
+      <UniqueIdentifier>{13fc2785-8f64-46ef-84b7-20d761ac4536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\light">
+      <UniqueIdentifier>{17f65250-0d35-47ce-ac26-62687c5935e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\material">
+      <UniqueIdentifier>{00ecdc6e-ee62-45d6-ae48-46362c5ebadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\model">
+      <UniqueIdentifier>{2ab30f19-e1c0-4c8c-9864-c5bb2da83feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\scene">
+      <UniqueIdentifier>{eae0689d-584b-4503-854d-67727ffeaaae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shader">
+      <UniqueIdentifier>{713db1ed-b69c-4726-989a-1d1a7f0f0cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\animation">
+      <UniqueIdentifier>{3155b0e2-8e2e-4ce4-8334-1d32dfd1b7fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\light">
+      <UniqueIdentifier>{1bd3a27c-2617-4e46-8113-8541576322ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\material">
+      <UniqueIdentifier>{2fc1f1c8-5f0a-499b-a110-07d1870b3fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\model">
+      <UniqueIdentifier>{5d3a9c00-b008-4550-8576-10fd23478776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\scene">
+      <UniqueIdentifier>{31915ef3-ac23-4179-9310-ab5bc21bb94e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\shader">
+      <UniqueIdentifier>{50104b7e-7e02-45a0-b2ee-c05852badc9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\window">
+      <UniqueIdentifier>{77375917-18d4-43d6-b2d7-f2aad728d20f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\renderer">
+      <UniqueIdentifier>{5b49d7a7-905f-4547-a7c6-bd838044a91f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\renderer">
+      <UniqueIdentifier>{2a663c3d-56d3-45a3-97bc-64628f156775}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\window">
+      <UniqueIdentifier>{57044ab7-56a5-4cb4-baca-9ea24d91ab03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animation\animation.cpp">
+      <Filter>Source Files\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\animation\keyframe.cpp">
+      <Filter>Source Files\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\light\light.cpp">
+      <Filter>Source Files\light</Filter>
+    </ClCompile>
+    <ClCompile Include="src\material\material.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\material\texture2d.cpp">
+      <Filter>Source Files\material</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\mesh.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\model.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\primitives.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\skybox.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model\vertex.cpp">
+      <Filter>Source Files\model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\renderer\renderer.cpp">
+      <Filter>Source Files\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\camera.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene\scene.cpp">
+      <Filter>Source Files\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\shader\shprogram.cpp">
+      <Filter>Source Files\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\window.cpp">
+      <Filter>Source Files\window</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\Shader\scene.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\Shader\scene.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\Shader\skybox.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="src\Shader\skybox.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\animation\animation.h">
+      <Filter>Header Files\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animation\attribute.h">
+      <Filter>Header Files\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\animation\keyframe.h">
+      <Filter>Header Files\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\light\light.h">
+      <Filter>Header Files\light</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\material.h">
+      <Filter>Header Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\material\texture2d.h">
+      <Filter>Header Files\material</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\mesh.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\model.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\primitives.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\skybox.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model\vertex.h">
+      <Filter>Header Files\model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\renderer\renderer.h">
+      <Filter>Header Files\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\camera.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\parameters.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene\scene.h">
+      <Filter>Header Files\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\shader\shprogram.h">
+      <Filter>Header Files\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\window.h">
+      <Filter>Header Files\window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
