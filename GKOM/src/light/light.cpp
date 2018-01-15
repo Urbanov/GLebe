@@ -48,7 +48,7 @@ Light& Light::setAttenuation(GLfloat constant, GLfloat linear, GLfloat quadratic
 
 void Light::lighten(GLfloat delta)
 {
-	m_intensity += STEP;
+	m_intensity += STEP * delta;
 	if (m_intensity > 1.0f) {
 		m_intensity = 1.0f;
 	}
@@ -56,7 +56,7 @@ void Light::lighten(GLfloat delta)
 
 void Light::darken(GLfloat delta)
 {
-	m_intensity -= STEP;
+	m_intensity -= STEP * delta;
 	if (m_intensity < 0.0f) {
 		m_intensity = 0.0f;
 	}

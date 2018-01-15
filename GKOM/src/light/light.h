@@ -4,7 +4,7 @@
 
 class Light {
 private:
-	static constexpr GLfloat STEP = 0.01f;
+	static constexpr GLfloat STEP = 0.8f;
 
 	GLuint m_id;
 	glm::vec3 m_position;
